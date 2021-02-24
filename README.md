@@ -7,6 +7,7 @@ Antes de começar é necessário que seja colocado os dois scripts em  externals
 
 ## Como fazer:
 
+* crontab -e colocar */5 * * * * /usr/lib/zabbix/externalscripts/speedtest.py --simple  > /tmp/velocidade.txt
 * cd /usr/lib/zabbix/externalscripts/
 * wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/speedtest.py
 * wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/velocidade.sh
