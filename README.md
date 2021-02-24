@@ -11,3 +11,7 @@ Antes de começar é necessário que seja colocado os dois scripts em  externals
 * chmod 777 velocidade.sh speedtest.py
 
 Agora basta importar o template TEMPLATE-SPEEDTEST.xml.
+
+Imagens:
+
+![grafana.jfif](grafana.jfif)
