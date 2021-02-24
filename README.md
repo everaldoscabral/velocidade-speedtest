@@ -7,13 +7,15 @@ Antes de começar é necessário que seja colocado os dois scripts em  externals
 
 ## Como fazer:
 
-* crontab -e colocar */5 * * * * /usr/lib/zabbix/externalscripts/speedtest.py --simple  > /tmp/velocidade.txt
+* crontab -e colocar */7 * * * * /usr/lib/zabbix/externalscripts/speedtest.py --simple  > /tmp/velocidade.txt
 * cd /usr/lib/zabbix/externalscripts/
 * wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/speedtest.py
 * wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/velocidade.sh
 * chmod 777 velocidade.sh speedtest.py
 
 Agora basta importar o template *TEMPLATE-SPEEDTEST.xml.*
+
+O script speedtest.py será executado a cada 7 minutos e os itens são coletados a cada 10 minutos.
 
 ## Imagens:
 
