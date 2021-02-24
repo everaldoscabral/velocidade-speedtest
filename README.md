@@ -15,7 +15,7 @@ Antes de começar é necessário que seja colocado os dois scripts em  externals
 
 Agora basta importar o template *TEMPLATE-SPEEDTEST.xml.*
 
-O script speedtest.py será executado a cada 7 minutos e os itens são coletados a cada 10 minutos.
+O script speedtest.py será executado a cada 20 minutos e os itens são coletados a cada 25 minutos.
 
 ## Imagens:
 
