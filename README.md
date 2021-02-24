@@ -10,4 +10,4 @@ Antes de começar é necessário que seja colocado os dois scripts em  externals
 3 - wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/velocidade.sh
 4 - chmod 777 velocidade.sh speedtest.py
 
-Agora basta importar o template TEMPLATE-SPEEDTEST.xml
+Agora basta importar o template TEMPLATE-SPEEDTEST.xml.
