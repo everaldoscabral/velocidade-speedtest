@@ -12,7 +12,7 @@ Antes de começar é necessário que seja colocado os dois scripts em  externals
 * wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/velocidade.sh
 * chmod 777 velocidade.sh speedtest.py
 
-Agora basta importar o template ## TEMPLATE-SPEEDTEST.xml.
+Agora basta importar o template *TEMPLATE-SPEEDTEST.xml.*
 
 ## Imagens:
 
