@@ -3,10 +3,6 @@
 IFS='
 '
 
-{
-/usr/lib/zabbix/externalscripts/speedtest.py --simple  > /tmp/velocidade.txt
-} &> /dev/null
-
 Ping(){
 
 cat /tmp/velocidade.txt | grep Ping | awk '{print $2}'
