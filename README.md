@@ -5,6 +5,8 @@ Já pensou em saber qual é a velocidade que é entregue por sua operadora naque
 
 Antes de começar é necessário que seja colocado os dois scripts em  externalscripts do Zabbix (ou aonde você definiu).
 
+## Como fazer:
+
 * cd /usr/lib/zabbix/externalscripts/
 * wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/speedtest.py
 * wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/velocidade.sh
@@ -12,6 +14,8 @@ Antes de começar é necessário que seja colocado os dois scripts em  externals
 
 Agora basta importar o template TEMPLATE-SPEEDTEST.xml.
 
-Imagens:
+## Imagens:
 
 ![grafana.jfif](grafana.jfif)
+
+![zabbix.PNG](zabbix.PNG)
