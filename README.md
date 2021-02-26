@@ -13,7 +13,7 @@ Antes de começar é necessário que seja colocado os dois scripts em  externals
 * wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/velocidade.sh
 * chmod 777 velocidade.sh speedtest.py
 
-Agora basta importar o template *TEMPLATE-SPEEDTEST.xml.*
+Agora basta importar o template *TEMPLATE-SPEEDTEST.xml.* E criar o host e associar o template importado.
 
 O script speedtest.py será executado a cada 20 minutos e os itens são coletados a cada 25 minutos.
 
