@@ -1,5 +1,6 @@
 # Monitoramento de Velocidade via Zabbix
-Velocidade entregue da sua operadora.
+
+# NUNCA UTILIZE ESSAS MÉTRICAS EM UM CURTO ESPAÇO DE TEMPO (COLETA). ISSO IRÁ ONERAR BASTANTE TEU LINK DE INTERNET. 
 
 Já pensou em saber qual é a velocidade que é entregue por sua operadora naquele momento? Irei ensinar a como realizar esse monitoramento via Zabbix.
 
