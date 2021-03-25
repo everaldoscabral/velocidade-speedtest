@@ -32,7 +32,7 @@
                     <name>Velocidade de Download</name>
                     <type>EXTERNAL</type>
                     <key>velocidade.sh[Download]</key>
-                    <delay>25m</delay>
+                    <delay>15m</delay>
                     <history>7d</history>
                     <value_type>FLOAT</value_type>
                     <units>!Mbps</units>
@@ -46,7 +46,7 @@
                     <name>Ping</name>
                     <type>EXTERNAL</type>
                     <key>velocidade.sh[Ping]</key>
-                    <delay>25m</delay>
+                    <delay>15m</delay>
                     <history>7d</history>
                     <value_type>FLOAT</value_type>
                     <units>ms</units>
@@ -60,7 +60,7 @@
                     <name>Velocidade de Upload</name>
                     <type>EXTERNAL</type>
                     <key>velocidade.sh[Upload]</key>
-                    <delay>25m</delay>
+                    <delay>15m</delay>
                     <history>7d</history>
                     <value_type>FLOAT</value_type>
                     <units>!Mbps</units>
