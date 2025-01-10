@@ -10,7 +10,7 @@ Antes de começar é necessário que seja colocado os dois scripts em  externals
 
 * crontab -e colocar */20 * * * * /usr/lib/zabbix/externalscripts/speedtest.py --simple  > /tmp/velocidade.txt
 * cd /usr/lib/zabbix/externalscripts/
-* wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/speedtest.py
+* wget https://github.com/sivel/speedtest-cli/raw/refs/heads/master/speedtest.py
 * wget https://raw.githubusercontent.com/everaldoscabral/velocidade-speedtest/main/velocidade.sh
 * chmod 777 velocidade.sh speedtest.py
 
